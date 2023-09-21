@@ -1,0 +1,25 @@
+<%- include("header.ejs") %>
+    <div class="raw">
+        <div class="date">
+
+            <h1>Work List</h1>
+
+
+            <form class="form" action="/work" method="post">
+                <input type="text" name="task" placeholder="New Item">
+                <input type="submit" value="+">
+            </form>
+            <% if(locals.tasks){ %>
+                <% tasks.forEach((task)=>{ %>
+                    <div class="check-style">
+                        <input class="checkbox" type="checkbox">
+                        <label for="checkbox">
+                            <%= task %>
+                        </label>
+                    </div>
+                    <% }) %>
+
+                        <% } %>
+        </div>
+    </div>
+    <%- include("footer.ejs") %>

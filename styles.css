@@ -1,0 +1,117 @@
+/* The Easiest way 👇  without js*/
+.checkbox:checked+label {
+  text-decoration: line-through #5B0888 ;
+
+
+
+}
+
+body {
+  background-color: #E4F1FF;
+  color: black;
+  font-family: 'Comic Neue', cursive;
+}
+
+
+
+footer {
+  margin-top: 300px;
+  color: #9D76C1;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  gap: 50px;
+  margin: 0;
+}
+.fa-regular {
+  color: #9D76C1;
+}
+
+.header a {
+  color: #9D76C1;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.header i {
+  color: #9D76C1;
+  margin: 0px 10px 3px 10px;
+}
+
+.raw {
+  margin: auto;
+  width: 50%;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  
+}
+
+.date {
+  width: 400px;
+  margin: auto;
+  background-color: white;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 15px 0px 15px;
+}
+
+
+.date h1 {
+  background-color: #9D76C1;
+  font-size: 2rem;
+  color: white;
+  width: 400px;
+  text-align: center;
+  border-width: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: #9D76C1;
+  font-size: 30px;
+  color: white;
+  padding-bottom: 3%;
+  text-align: center;
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+
+
+}
+
+
+input[name="task"],
+input[name="task"]:after,
+textarea:focus,
+section:focus {
+  border-radius: 5%;
+  font-size: 1.5rem;
+  height: 40px;
+  width: 300px;
+  margin: 20px;
+  border: none;
+  outline: none;
+  color: #9D76C1;
+}
+
+.check-style {
+  color: #9D76C1;
+  margin: 20px 0px 20px 20px;
+  font-weight: bold;
+}
+
+.checkbox{
+  margin-right: 30px;
+  
+}
+
+::placeholder {
+  color: #BC7AF9;
+}
+
